@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 2px;
+}
+
+/* --------------------------- Start Navbar --------------------------- */
+
+.navbar,
+.footer {
+    background-color: #2c3e50;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 #fff;
+}
+
+/* --------------------------- End Navbar --------------------------- */
+
+/* --------------------------- Start Hero Section --------------------------- */
+
+.hero {
+    height: calc(100vh - 100px);
+
+}
+
+.hero,
+.portfolio {
+    background-color: #1abc9c;
+}
+
+/* --------------------------- End Hero Section --------------------------- */
+
+/* --------------------------- Start About Section --------------------------- */
+
+.about {
+    background-color: #209880;
+}
+
+.line {
+    height: 4px;
+    width: 100px;
+}
+
+.menu_links ul li a {
+    font-size: 0.8rem;
+}
+
+/* --------------------------- End About Section --------------------------- */
+
+/* --------------------------- Start Portfolio Section --------------------------- */
+
+.layer {
+    background-color: #209880;
+    opacity: 0;
+    transition: opacity 800ms;
+}
+
+.inner {
+    cursor: pointer;
+}
+
+.layer i {
+    font-size: 4rem;
+}
+
+.inner:hover .layer {
+    opacity: 1;
+}
+
+/* --------------------------- End Portfolio Section --------------------------- */
+/* --------------------------- Start Contact Section --------------------------- */
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+/* --------------------------- End Contact Section --------------------------- */
+
+/* --------------------------- Start Footer --------------------------- */
+
+.icons {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
+
+.copy_right {
+    background-color: #1a252f;
+}
+
+/* --------------------------- End Footer --------------------------- */
